@@ -5,3 +5,38 @@
   padding: 0;
   margin-bottom: 24px;
 }
+
+.destinations .section-title {
+margin-top:88px;
+}
+
+.section-title hr {
+  margin-bottom: 0px;
+}
+
+.destinations-itens {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 312px;
+  margin: auto;
+}
+
+.img-item img{
+  width: 312px;
+  margin: 40px 0 24px 0;
+}
+
+.item h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin:0 0 24px 0;
+
+
+}
+
+.item p {
+  margin: 24px 0 24px 0;
+}
