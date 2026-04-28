@@ -1,9 +1,7 @@
-.destinations .item header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-  margin-bottom: 24px;
+.destinations-items {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
 }
 
 .destinations .section-title {
@@ -14,11 +12,6 @@
   margin-bottom: 0px;
 }
 
-.destinations-items {
-  margin-top: 32px;
-  display: flex;
-  flex-direction: column;
-}
 
 .item {
   width: 312px;
@@ -48,7 +41,7 @@
   text-align: center;
 }
 
-.item a {
+.destinations .button {
   width: 312px;
 }
 
@@ -76,10 +69,15 @@
     margin-top: 32px;
   }
 
-  .item footer {
-    width: 312px;
+  .destinations .button {
+  width: 280px;
+}
+  .destinations footer {
+    display: flex;
+    justify-content: flex-start;
   }
 }
+
 
 @media screen and (min-width: 1440px) {
   .destinations-items {
