@@ -1,0 +1,30 @@
+.image.bag img {
+  width: 144px;
+  height: 254px;
+}
+
+.image.passport img {
+  width: 144px;
+  height: 254px;
+}
+
+.image.people img {
+  width: 312px;
+  height: 182px;
+}
+.image.bag {
+  grid-area: main;
+}
+.image.passport {
+  grid-area: sidebar;
+}
+.image.people {
+  grid-area: footer;
+}
+.image-content {
+  width: 312px;
+  display: grid;
+  grid-template-columns: 144px 1fr;
+  grid-template-areas: "main sidebar" "footer footer" ;
+  gap: 24px;
+}
