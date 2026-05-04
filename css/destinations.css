@@ -14,22 +14,19 @@
 }
 
 .img-item img {
-  margin-top: 32px;
   width: 312px;
 }
 
+.img-item.Osaka {
+  margin-top: 32px;
+}
+
 .item h4 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
   margin: 24px 0 24px 0;
 }
 
 .item p {
   margin: 24px 0 24px 0;
-  font-weight: var(--text-weight);
-  font-size: 20px;
-  line-height: 32px;
-  color: var(--text-primary-color);
 }
 
 .item footer {

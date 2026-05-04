@@ -76,6 +76,17 @@ section.hero {
   margin: 16px auto 32px;
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 32px;
+}
+
 .button {
   min-width: 280px;
   height: 64px;
@@ -95,18 +106,18 @@ section.hero {
     font-size: 32px;
   }
   section {
-  width: 648px;
-}
-.section-title {
-  width: 100%;
-  margin: 0 auto;
-}
+    width: 648px;
+  }
+  .section-title {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   section {
-  width: 900px;
-}
+    width: 900px;
+  }
 
   .button:hover {
     background-color: var(--primary-color);
@@ -115,11 +126,10 @@ section.hero {
 
 @media screen and (min-width: 1440px) {
   section {
-  width: 1200px;
-}
+    width: 1200px;
+  }
 
   .button:hover {
     background-color: var(--primary-color);
   }
 }
-
