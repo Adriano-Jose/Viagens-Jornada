@@ -1,21 +1,22 @@
-.image-gallery {
+.payments .group_payments .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   height: 460px;
   margin-top: 24px;
+  width: 100%;
 }
 
-.payments .image-gallery .image.first {
+.payments .group_payments .image-gallery .image.first {
   background: url(../img/bag-mobyle.png) no-repeat;
   background-size: cover;
 }
 
-.payments .image-gallery .image.second {
+.payments .group_payments .image-gallery .image.second {
   background: url(../img/passport-mobyle.png) no-repeat;
   background-size: cover;
 }
-.payments .image-gallery .image.thirdy {
+.payments .group_payments .image-gallery .image.thirdy {
   background: url(../img/people-mobyle.png) no-repeat;
   background-size: cover;
 }
@@ -23,3 +24,52 @@
 .image.thirdy {
   grid-column: span 2;
 }
+
+@media screen and (min-width: 768px) {
+  .payments .group_payments .image-gallery .image.first {
+    background: url(../img/bag-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .group_payments .image-gallery .image.second {
+    background: url(../img/passport-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .group_payments .image-gallery .image.thirdy {
+    background: url(../img/people-desktop.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .group_payments .image-gallery {
+    width: 790px;
+    height: 460px;
+  }
+
+  .payments .group_payments .text-content {
+    width: 384px;
+    height: 220px;
+  }
+
+  .payments .group_payments {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+/* 
+  .group_1 {
+    grid-area: main;
+  }
+  .group_2 {
+    grid-area: sidebar;
+  }
+
+  .group_payments {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-areas: "main sidebar";
+
+    justify-content: space-between;
+  }
+} */
