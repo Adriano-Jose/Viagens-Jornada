@@ -45,6 +45,7 @@
   .payments .group_payments .image-gallery {
     width: 790px;
     height: 460px;
+    margin: 0;
   }
 
   .payments .group_payments .text-content {
@@ -57,19 +58,3 @@
     justify-content: space-between;
   }
 }
-/* 
-  .group_1 {
-    grid-area: main;
-  }
-  .group_2 {
-    grid-area: sidebar;
-  }
-
-  .group_payments {
-    display: grid;
-    grid-template-columns: 35% 65%;
-    grid-template-areas: "main sidebar";
-
-    justify-content: space-between;
-  }
-} */
