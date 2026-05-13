@@ -12,6 +12,9 @@
 .testimonial-container footer {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin-top: 8px;
 }
 
 .testimonial-container footer img {
@@ -23,6 +26,13 @@
     font-size: 20px;
     line-height: 32px;
     font-weight: var(--title-weight);
+    margin: 0 0 8px;
+}
+
+.testimonial-container footer .profile-content .rating .star{
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--secundary-color);
 }
 
 @media screen and (min-width: 1440px) {
