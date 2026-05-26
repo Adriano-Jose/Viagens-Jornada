@@ -35,8 +35,13 @@
 
 @media screen and (min-width: 1024px) {
   .cards-category {
-    width: 648px;
     margin: 0 auto;
+  }
+
+  .cards-category .card {
+    width: 400px;
+    height: 220px;
+    padding: 60px;
   }
 }
 
