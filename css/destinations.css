@@ -33,7 +33,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .item {
+ .item {
     width: 648px;
     margin: auto;
   }
@@ -63,6 +63,27 @@
     display: flex;
     justify-content: flex-start;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .item {
+    width: 900px;
+    margin: auto;
+  }
+  .img-item.Tokyo {
+    background-image: url(../img/Tokyo_Tablet.Desktop.png);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+  }
+  .img-item.Osaka {
+    background-image: url(../img/Osaka_Tablet.Desktop.png);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    margin-top: 32px;
+  }
+
 }
 
 @media screen and (min-width: 1440px) {
