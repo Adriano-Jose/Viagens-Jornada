@@ -81,16 +81,13 @@ input[type="checkbox"]:checked ~ nav {
 
 @media screen and (min-width: 1024px) {
   .main-header {
-    padding: 38px 120px;
-  }
-
-  .logo {
-    width: 260px;
-    height: 64px;
+    padding: 38px 90px;
   }
 
   .img_desktop {
     display: block;
+    width: 260px;
+    height: 64px;
   }
 
   .img_mobile {
@@ -102,8 +99,8 @@ input[type="checkbox"]:checked ~ nav {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1440px) {
   .main-header {
-    padding: 38px 160px;
+    padding: 38px 100px;
   }
 }
