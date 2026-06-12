@@ -1,11 +1,39 @@
-.main-hero-blog h2{
-    font-size: 48px;
-    font-weight:var(--title-weight) ;
+.main-hero-blog {
+  width: auto;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/img/Hero-Pages-Blog.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 460px;
+  margin: 0;
+}
+
+.hero-blog-content {
+  padding: 41px 24px 41px 24px;
+}
+
+.main-hero-blog .hero-blog-content .section-title {
+  margin: 0;
+  padding: 0;
+}
+
+.main-hero-blog .hero-blog-content .section-title hr {
+  margin: 16px 0 32px 0;
+}
+
+.main-hero-blog .hero-blog-content h2 {
+  margin: 0;
+  padding-top: 40px;
+  text-align: start;
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: var(--text-secundary-color);
 }
 
 .main-hero-blog p {
-    font-size: 20px;
-    font-weight: var(--text-weight);
-    line-height: 32px;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  color: var(--text-secundary-color);
+  line-height: 32px;
 }
-
