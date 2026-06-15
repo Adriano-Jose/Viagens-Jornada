@@ -80,3 +80,9 @@
     z-index: 1;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .main-hero-blog .hero-blog-content {
+    padding: 158px 741px 158px 120px;
+  }
+}
