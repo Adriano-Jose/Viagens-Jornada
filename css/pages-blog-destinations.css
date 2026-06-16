@@ -1,0 +1,40 @@
+.blog-destinations {
+  width: 312px;
+}
+.blog-destinations .section-title h2 {
+  font-size: 32px;
+  margin-top: 88px;
+}
+
+.blog-destinations .section-title hr {
+  margin-bottom: 56px;
+}
+
+.blog-destinations .blog-destinations-content h3 {
+  margin: 32px 0 24px 0;
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.blog-destinations .blog-destinations-content p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+.blog-destinations .blog-destinations-content .blog-tokyo-store img {
+  width: 312px;
+  height: 360px;
+}
+
+.blog-destinations .blog-destinations-content .blog-tokyo img {
+  width: 312px;
+  height: 360px;
+}
+
+.blog-destinations .blog-destinations-content .blog-tokyo figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 14px;
+  color: var(--text-weight);
+}
