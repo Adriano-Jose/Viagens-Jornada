@@ -59,3 +59,32 @@
     margin-top: 32px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .blog-destinations {
+    width: 1200px;
+  }
+
+  .blog-img.blog-store-img img {
+    display: none;
+  }
+  .blog-destinations
+    .blog-destinations-content
+    .blog-content-Tokyo
+    .blog-container-Tokyo {
+    width: 588px;
+  }
+
+  .blog-destinations .blog-destinations-content .blog-store-img {
+    background-image: url(/img/blog-tokyo-store-desktop.png);
+    background-size: cover;
+    background-position: center;
+    width: 588px;
+    height: 360px;
+  }
+
+  .blog-img.blog-tokyo {
+    width: 1200px;
+    height: 336px;
+  }
+}
