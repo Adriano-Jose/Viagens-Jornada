@@ -1,0 +1,23 @@
+.suggestion {
+  width: 312px;
+}
+
+.suggestion .suggestion-item .suggestion-img img {
+  width: 312px;
+  height: 300px;
+}
+
+.suggestion .suggestion-item .blog-suggestion-title {
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: var(--title-weight);
+  color: var(--text-primary-color);
+  margin: 16px 0 8px 0;
+}
+
+.suggestion .suggestion-item .blog-suggestion-text {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  color: var(--text-primary-color);
+}
