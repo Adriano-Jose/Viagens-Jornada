@@ -46,11 +46,11 @@
     gap: 24px;
   }
 
-  .blog-img.blog-tokyo img {
+  .blog-destinations .blog-destinations-content .blog-img.blog-tokyo img {
     display: none;
   }
 
-  .blog-img.blog-tokyo {
+  .blog-destinations .blog-destinations-content .blog-img.blog-tokyo {
     background-image: url(/img/Tokyo_Tablet.Desktop.png);
     background-size: cover;
     background-position: center;
@@ -60,12 +60,27 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .blog-destinations {
+    width: 900px;
+  }
+
+  .blog-destinations .blog-destinations-content .blog-img.blog-tokyo {
+    width: 900px;
+    height: 336px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .blog-destinations {
     width: 1200px;
   }
 
-  .blog-img.blog-store-img img {
+  .blog-destinations
+    .blog-destinations-content
+    .blog-content-Tokyo
+    .blog-img.blog-store-img
+    img {
     display: none;
   }
   .blog-destinations
@@ -83,7 +98,7 @@
     height: 360px;
   }
 
-  .blog-img.blog-tokyo {
+  .blog-destinations .blog-destinations-content .blog-img.blog-tokyo {
     width: 1200px;
     height: 336px;
   }
