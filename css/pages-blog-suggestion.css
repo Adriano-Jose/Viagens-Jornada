@@ -21,3 +21,8 @@
   font-weight: var(--text-weight);
   color: var(--text-primary-color);
 }
+
+.suggestion .suggestion-items .suggestion-item a {
+  width: 312px;
+  margin: 16px 0 40px 0;
+}
