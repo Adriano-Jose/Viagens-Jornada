@@ -1,7 +1,3 @@
-.suggestion {
-  width: 312px;
-}
-
 .suggestion .suggestion-item .suggestion-img img {
   width: 312px;
   height: 300px;
@@ -20,4 +16,51 @@
   line-height: 32px;
   font-weight: var(--text-weight);
   color: var(--text-primary-color);
+}
+
+.suggestion .suggestion-items .suggestion-item a {
+  width: 312px;
+  margin: 16px 0 40px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestion-items .suggestion-item .suggestion-img img {
+    display: none;
+  }
+
+  .suggestion-items .suggestion-item .suggestion-img.Osaka {
+    background-image: url(../img/Osaka_Tablet.Desktop.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+
+  .suggestion-items .suggestion-item .suggestion-img.Hiroshima {
+    background-image: url(../img/Hiroshima_Tabelt.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+
+  .suggestion-items .suggestion-item .suggestion-img.Kyoto {
+    background-image: url(../img/Kyoto_Tablet.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+
+  .suggestion .suggestion-item footer {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 1440px) {
+    .suggestion .suggestion-items {
+      display: flex;
+      gap: 24px;
+    }
+
+    .suggestion .suggestion-items .suggestion-item {
+      width: 384px;
+    }
+  }
 }
